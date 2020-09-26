@@ -99,7 +99,7 @@ void calculator_menu(void)
             getchar();
             break;
         case MODULO:
-            printf("\n\t%d % %d = %d\nEnter to continue", 
+            printf("\n\t%d mod %d = %d\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
             modulo(calculator_operand1, calculator_operand2));
